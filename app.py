@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 import re
+import os
 
 app = Flask(__name__)
+app.config['ENV'] = os.environ.get('FLASK_ENV', 'production')
 
 def split_text(text):
     """Split text into words, preserving punctuation info"""
@@ -48,4 +50,5 @@ def format_time(seconds):
     return f"{minutes}m {secs}s"
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=app.config['ENV'] == 'development', host='0.0.0.0', port=port)

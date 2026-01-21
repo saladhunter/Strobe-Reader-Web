@@ -1,0 +1,21 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Python
+*.py text eol=lf diff=python
+*.pyw text eol=lf diff=python
+
+# HTML, CSS, JS
+*.html text eol=lf diff=html
+*.css text eol=lf diff=css
+*.js text eol=lf diff=javascript
+
+# Documentation
+*.md text eol=lf diff=markdown
+
+# Build artifacts
+venv/ export-ignore
+__pycache__/ export-ignore
+*.pyc export-ignore
+dist/ export-ignore
+build/ export-ignore

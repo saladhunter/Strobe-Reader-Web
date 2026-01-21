@@ -1,0 +1,33 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Deploy to Railway
+      run: |
+        echo "Ready to deploy to Railway!"
+        echo "Instructions:"
+        echo "1. Go to https://railway.app"
+        echo "2. Connect GitHub account"
+        echo "3. Select this repository"
+        echo "4. Railway will auto-detect Flask and deploy"
+      continue-on-error: true
+    
+    - name: Deploy to Render
+      run: |
+        echo "Ready to deploy to Render!"
+        echo "Instructions:"
+        echo "1. Go to https://render.com"
+        echo "2. Connect GitHub account"
+        echo "3. Create new Web Service"
+        echo "4. Select this repository"
+        echo "5. Use 'pip install -r requirements.txt && python app.py'"
+      continue-on-error: true
