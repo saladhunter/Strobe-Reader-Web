@@ -1,24 +1,35 @@
-# Strobe Reader - Web Version
+# 🚀 Strobe Reader - Web Version
 
-A fast, lightweight, open-source speed reading tool for the web.
+**The primary, actively developed version of Strobe Reader.**
+
+A fast, lightweight, open-source speed reading tool for the web. No installation, no complexity - just paste text and start reading faster.
+
+**[🎯 Try it live now!](#getting-started)** | [💻 Contribute on GitHub](https://github.com/saladhunter/Strobe-Reader-Web) | [📱 Works everywhere](#features)
 
 ## Features
 
-✨ **Core Features:**
-- Paste text and speed read it instantly
-- Adjustable WPM (100-1500 words per minute)
-- Real-time progress tracking
-- No installation needed
-- Zero user tracking
-- Open source
+✨ **Why the web version:**
+- ✅ **Works anywhere** - Windows, Mac, Linux, mobile, tablet
+- ✅ **No installation** - Just open a URL
+- ✅ **Paste & read** - Start immediately
+- ✅ **Adjustable WPM** - 100-1500 words per minute
+- ✅ **Open source** - Contribute easily
+- ✅ **Zero tracking** - Your privacy matters
+- ✅ **Free forever** - No ads, no paywalls
 
 ## Getting Started
 
-### Prerequisites
+### 🌐 Use the Live App (Easiest)
+
+Visit the deployed web app (link will be added after deployment).
+
+### 🏠 Run Locally
+
+**Prerequisites:**
 - Python 3.8+
 - pip
 
-### Installation
+**Installation:**
 
 1. Clone the repository
 ```bash
@@ -83,12 +94,45 @@ Strobe-Reader-Web/
 
 ## Contributing
 
-Contributions welcome! This is intentionally kept simple to be accessible to new contributors.
+**We'd love your help!** This project is intentionally kept simple to be accessible to new contributors.
+
+### Ways to Contribute
+
+- 🐛 **Report bugs** - Open an issue
+- ✨ **Suggest features** - Discuss in issues
+- 🔧 **Submit code** - Fork, create a branch, submit PR
+- 📚 **Improve docs** - Better guides and examples
+- 🎨 **UI/UX improvements** - Make it beautiful
+
+### Getting Started with Code Changes
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Make changes
+4. Test locally: `python app.py`
+5. Commit with clear message: `git commit -m "feat: Add your feature"`
+6. Push and create a Pull Request
+
+**Minimal stack = Easy onboarding!** 🎉
 
 ## License
 
-MIT
+MIT - Free and open source
 
-## Related Projects
+## Roadmap
 
-- [Strobe-Reader (Swift/macOS)](https://github.com/saladhunter/Strobe-Reader) - Native macOS version
+- [x] Core OPRS speed reading
+- [x] Web deployment
+- [ ] Dark mode
+- [ ] Import from files
+- [ ] Reading history
+- [ ] Different reading modes
+- [ ] Mobile optimization
+
+## Status
+
+✅ **Active development** - Primary focus for speed reading tool
+
+---
+
+**Questions?** [Open an issue](https://github.com/saladhunter/Strobe-Reader-Web/issues) or start a discussion!
